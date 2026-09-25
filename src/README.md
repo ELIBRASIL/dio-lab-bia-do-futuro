@@ -1,6 +1,38 @@
-# Código da Aplicação
+# Passo a Passo de Execução
 
-Esta pasta contém o código do seu agente financeiro.
+## Setup do Ollama
+
+```bash
+# 1. Instalar Ollama (ollama.com)
+# 2. Baixar um modelo leve
+ollama pull gpt-oss
+
+# 3. Testar se funciona
+ollama run gpt-oss "Olá!"
+
+## Exemplo de requirements.txt
+
+```
+streamlit
+openai
+python-dotenv
+
+```
+
+## Como Rodar
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Rodar a aplicação
+
+```bash
+# Instalar dependências
+pip install -r requirements.txt
+
+# Rodar a aplicação
+streamlit run app.py
+streamlit run app.py
 
 ## Estrutura Sugerida
 
